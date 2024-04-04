@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 255, 217);
+}
+    
+
+
+h1{
+   text-align: center;
+   color: blue;
+   font-size: 40px;
+}
+
+div{
+    
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+div.one{
+    opacity: 0.3;
+    background-color: blue;
+    padding-top: 30px;
+}
+
+div.two{
+    opacity: 0.5;
+    background-color: blue;
+    padding-top: 30px;
+}
+
+div.three{
+    opacity: 0.8;
+    background-color: blue;
+    padding-top: 30px;
+}
+
+div.four{
+    opacity: 1.3;
+    background-color: blue;
+    padding-top: 30px;
+}
+
+div.one:hover{
+    background-image:linear-gradient(blue, yellow, aqua);
+}
+
+div.two:hover{
+    background-image:linear-gradient(blue, yellow, aqua);
+}
+
+div.three:hover{
+    background-image:linear-gradient(blue, yellow, aqua);
+}
+
+div.four:hover{
+    background-image:linear-gradient(blue, yellow, aqua);
+}
